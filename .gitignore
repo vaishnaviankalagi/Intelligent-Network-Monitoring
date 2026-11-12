@@ -1,0 +1,35 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Backend generated files
+backend/uploads/
+*.log
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Build files
+dist/
+build/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
